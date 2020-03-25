@@ -115,7 +115,7 @@ class LanguageStrategy {
      * Construct a Neo4j driver for connecting to the database.
      */
     getNeo4jDriver() {
-        return neo4j.driver('bolt://localhost:7687');
+        return neo4j.driver('bolt://neo4j:7687');
     }
 
     /**
